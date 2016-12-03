@@ -4,17 +4,24 @@
     android:layout_height="match_parent">
 
     <EditTextPreference
-        android:title="@string/pref_location_label"
-        android:key="@string/pref_location_key"
         android:defaultValue="@string/pref_location_default"
         android:inputType="text"
-        android:singleLine="true" />
-    <PreferenceCategory
-        android:title="STORAGE">
+        android:key="@string/pref_location_key"
+        android:singleLine="true"
+        android:title="@string/pref_location_label" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_units_metric"
+        android:entries="@array/pref_units_options"
+        android:entryValues="@array/pref_units_values"
+        android:key="@string/pref_units_key"
+        android:title="@string/pref_units_label" />
+
+    <PreferenceCategory android:title="STORAGE">
         <CheckBoxPreference
             android:key="checkbox_preference"
-            android:title="Delete messages"
-            android:summary="Lorem Ipsum" />
+            android:summary="Lorem Ipsum"
+            android:title="Delete messages" />
 
     </PreferenceCategory>
 </PreferenceScreen>

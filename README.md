@@ -1,18 +1,16 @@
-# Tugas2
-Implementasi Preference Setting Android
+Sunshine
+========
 
-# Deskripsi
+Sunshine is the companion Android app for the Udacity course [Developing Android Apps: Android Fundamentals](https://www.udacity.com/course/ud853).
 
-- Silahkan fork repository ini
+Take the course to find out how to build this app a step at a time, and eventually create your own Android App!
 
-- Taruh kode implementasi Preference Setting Android yang kalian buat (layout xml + kode java) pada repo tersebut (hanya file saja atau satu project android penuh dibebaskan)
+This is the second version of the Sunshine code. The repository has been updated on:
 
-- Lakukan pull request untuk mengumpulkan tugas
+* **February 13th, 2015** - Major update
+* February 25, 2015 - Minor bug fixes
+* March 4th, 2015 - Minor bug fixes
 
-# Contoh Tampilan
-![Preferences Setting Android](https://developer.android.com/images/ui/settings/settings.png "Preferences Setting Android")
+For the original version, please go [here](https://github.com/udacity/Sunshine).
 
-# Referensi
-Bagi kalian yang membutuhkan referensi, silahkan gunakan official guide dibawah yang disediakan oleh android.
-
-[https://developer.android.com/guide/topics/ui/settings.html](https://developer.android.com/guide/topics/ui/settings.html)
+A changelog for the course can be found [here](https://docs.google.com/a/knowlabs.com/document/d/193xJb_OpcNCqgquMhxPrMh05IEYFXQqt0S6-6YK8gBw/pub).
